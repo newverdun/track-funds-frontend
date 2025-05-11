@@ -22,6 +22,16 @@ const routes = [
           ),
       },
       {
+        path: '/configurations',
+        name: 'Configurations',
+        redirect: '/configurations/currencies',
+      },
+      {
+        path: '/configurations/currencies',
+        name: 'Currencies',
+        component: () => import('@/views/configurations/Currencies/Index.vue'),
+      },
+      {
         path: '/theme',
         name: 'Theme',
         redirect: '/theme/typography',

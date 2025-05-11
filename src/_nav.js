@@ -11,6 +11,22 @@ export default [
   },
   {
     component: 'CNavTitle',
+    name: 'Configuraciones',
+  },
+  {
+    component: 'CNavItem',
+    name: 'Plataformas',
+    to: '/theme/colors',
+    icon: 'cil-basket',
+  },
+  {
+    component: 'CNavItem',
+    name: 'Monedas',
+    to: '/configurations/currencies',
+    icon: 'cil-bank',
+  },
+  {
+    component: 'CNavTitle',
     name: 'Theme',
   },
   {
